@@ -1,0 +1,349 @@
+a {
+  text-decoration: none; }
+  a:link {
+    color: #0E92B5;
+    font-weight: 100; }
+  a:visited {
+    color: #0E92B5;
+    font-weight: 100; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+nav {
+  margin: 0;
+  padding: 0; }
+
+#mainWrapper {
+  background-color: #F5F5F2;
+  width: 100%; }
+  #mainWrapper #search1 {
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #E1E3DF;
+    padding: 1% 0 1% 0;
+    height: 70px; }
+    #mainWrapper #search1 #search1A {
+      float: left;
+      width: 55%;
+      height: 70px;
+      margin: 0; }
+      #mainWrapper #search1 #search1A #etsyLogo {
+        float: left;
+        color: #F56400;
+        margin: 2% 5% 0 14%;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: helvetica; }
+      #mainWrapper #search1 #search1A #searchInputWrapper {
+        background-color: white;
+        width: 55%;
+        float: left;
+        margin: 3% 0 0 0;
+        border: 1px solid #B2B2B2;
+        border-radius: 3px; }
+        #mainWrapper #search1 #search1A #searchInputWrapper #whiskeySearch {
+          float: left;
+          background-color: white;
+          padding: 1% 0;
+          width: 65%;
+          margin: 0%; }
+          #mainWrapper #search1 #search1A #searchInputWrapper #whiskeySearch h2 {
+            font-size: 1em;
+            padding: 2% 0 1% 3%; }
+        #mainWrapper #search1 #search1A #searchInputWrapper #whiskeySearchBtn {
+          float: right;
+          background-color: #34A8C4;
+          color: white;
+          padding: 2.4% 5%; }
+    #mainWrapper #search1 #search1B {
+      float: left;
+      width: 40%;
+      margin: 0;
+      padding: 0 0 0 0;
+      height: 70px; }
+      #mainWrapper #search1 #search1B #sellOnEtsy {
+        float: left;
+        color: #0E92B5;
+        margin: 4% 4% 0 7%;
+        padding: 2% 0; }
+        #mainWrapper #search1 #search1B #sellOnEtsy a {
+          font-size: .9em;
+          font-weight: bold; }
+      #mainWrapper #search1 #search1B #register {
+        float: left;
+        color: #0E92B5;
+        margin: 4% 2% 0 0;
+        padding: 2% 0; }
+        #mainWrapper #search1 #search1B #register a {
+          font-size: .9em;
+          font-weight: bold; }
+      #mainWrapper #search1 #search1B #signIn {
+        float: left;
+        color: #0E92B5;
+        background-color: white;
+        color: #0E92B5;
+        border: 1px solid #0E92B5;
+        padding: 1.8% 1.6%;
+        border-radius: 3px;
+        margin: 4% 0 0 0; }
+      #mainWrapper #search1 #search1B #cart {
+        border-left: 1px solid #E1E3DF;
+        float: left;
+        padding: 0 3%;
+        margin: 4% 0 0 5%; }
+        #mainWrapper #search1 #search1B #cart img {
+          width: 70%; }
+        #mainWrapper #search1 #search1B #cart h4 {
+          padding: 4% 0 0 0;
+          font-size: .8em;
+          margin: 0; }
+  #mainWrapper #search2 {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    padding: .3% 0;
+    border-bottom: 1px solid #E1E3DF; }
+    #mainWrapper #search2 ul {
+      margin: 0 0 0 4%; }
+    #mainWrapper #search2 ul li {
+      float: left;
+      padding: 10px;
+      color: #888888;
+      margin: 0 auto;
+      font-size: .9em; }
+  #mainWrapper #contentWrapper {
+    width: 82%;
+    margin: 2% 12% 0 12%; }
+    #mainWrapper #contentWrapper .aside {
+      background-color: #F5F5F2;
+      width: 23%;
+      margin: 0 3% 0 0;
+      padding: 0;
+      float: left; }
+      #mainWrapper #contentWrapper .aside h4 {
+        background-color: #F5F5F2;
+        font-size: .8em;
+        margin: 2% 0 6% 0;
+        color: #555555; }
+      #mainWrapper #contentWrapper .aside #allCat {
+        background-color: white;
+        border-radius: 4px;
+        border: 1px solid #E1E3DF; }
+        #mainWrapper #contentWrapper .aside #allCat h4 {
+          margin: 6% 0 0 5%;
+          background-color: white;
+          color: #555555; }
+        #mainWrapper #contentWrapper .aside #allCat ul {
+          margin: 4% 0 0 0; }
+        #mainWrapper #contentWrapper .aside #allCat ul li {
+          line-height: 23px;
+          font-size: .8em;
+          margin: 0 0 0 0; }
+      #mainWrapper #contentWrapper .aside #refineText {
+        margin: 10% 0 2% 0; }
+      #mainWrapper #contentWrapper .aside #refineSearch {
+        background-color: white;
+        margin: 6% 0 0 0;
+        border-radius: 3px;
+        border: 1px solid #E1E3DF; }
+        #mainWrapper #contentWrapper .aside #refineSearch #itemType {
+          margin: 3% 2% 6% 2%;
+          border-bottom: 1px solid #E1E3DF;
+          background-color: white; }
+          #mainWrapper #contentWrapper .aside #refineSearch #itemType label {
+            display: block;
+            margin: 0 0 1% 3%; }
+          #mainWrapper #contentWrapper .aside #refineSearch #itemType #itemTypeText {
+            background-color: white;
+            padding: 2%; }
+        #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh {
+          border-bottom: 1px solid #E1E3DF;
+          margin: 2%; }
+          #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh h3 {
+            font-size: .9em;
+            margin: 2% 0 3% 2%;
+            padding: 4% 0 0 0;
+            display: inline-block;
+            color: #555555; }
+          #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh h4 {
+            background-color: white;
+            display: inline-block;
+            padding: 5% 0 5% 0;
+            color: #555555; }
+          #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh .highLow {
+            padding: 5% 5%;
+            margin: 0 2% 7% 0;
+            border: 1px solid #E1E3DF;
+            border-radius: 2px;
+            display: inline-block;
+            color: #555555; }
+            #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh .highLow span {
+              color: #CCCCCC; }
+          #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh #arrowBtn {
+            padding: 4% 4%;
+            margin: 1% 0 0 0;
+            border-radius: 2px;
+            width: 8%;
+            display: inline-block;
+            border: 1px solid #E1E3DF; }
+          #mainWrapper #contentWrapper .aside #refineSearch #priceLowToHigh #arrowBtn img {
+            width: 100%; }
+        #mainWrapper #contentWrapper .aside #refineSearch #filterByColor {
+          margin: 2%;
+          background-color: white;
+          padding: 1%;
+          border-bottom: 1px solid #E1E3DF; }
+          #mainWrapper #contentWrapper .aside #refineSearch #filterByColor h4 {
+            padding: 5% 0 0 0;
+            background-color: white; }
+          #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul {
+            margin: 4% 0 8% 2%;
+            padding: 0; }
+          #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li {
+            display: inline-block; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #filterByColorText {
+              clear: both; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li .filterBox {
+              display: inline-block;
+              width: 20px;
+              height: 20px; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #red {
+              background-color: red;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #orange {
+              background-color: orange;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #yellow {
+              background-color: yellow;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #green {
+              background-color: green;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #blue {
+              background-color: blue;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #purple {
+              background-color: purple;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #black {
+              background-color: black;
+              border: 1px solid #E1E3DF; }
+            #mainWrapper #contentWrapper .aside #refineSearch #filterByColor ul li #white {
+              background-color: white;
+              border: 1px solid #E1E3DF; }
+        #mainWrapper #contentWrapper .aside #refineSearch #orderingOptions {
+          border-bottom: 1px solid #E1E3DF;
+          padding: 2% 2% 10% 2%;
+          margin: 2%; }
+          #mainWrapper #contentWrapper .aside #refineSearch #orderingOptions h4 {
+            margin: 5% 0 5% 0;
+            background-color: white; }
+          #mainWrapper #contentWrapper .aside #refineSearch #orderingOptions a {
+            font-size: .8em; }
+        #mainWrapper #contentWrapper .aside #refineSearch #shopLocation {
+          border-bottom: 1px solid #E1E3DF;
+          padding: 2%;
+          margin: 2%; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shopLocation h4 {
+            margin: 5% 0 5% 0;
+            background-color: white; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shopLocation input {
+            margin: 0 0 4% 0; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shopLocation label {
+            font-size: .9em; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shopLocation a {
+            font-size: .9em; }
+        #mainWrapper #contentWrapper .aside #refineSearch #shipTo {
+          padding: 8% 2%;
+          margin: 5% 2%; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shipTo h4 {
+            margin: 0 0 7% 0; }
+          #mainWrapper #contentWrapper .aside #refineSearch #shipTo .dropDown {
+            width: 95%;
+            padding: 6% 1%;
+            line-height: 30px;
+            font-size: 1.5em; }
+    #mainWrapper #contentWrapper #mainContent {
+      width: 73%;
+      margin: 0;
+      display: inline-block; }
+      #mainWrapper #contentWrapper #mainContent .liveDataContainer {
+        margin: 0 auto;
+        width: 190px;
+        height: 170px;
+        background-color: white;
+        float: left;
+        margin: 0 2% 2% 0;
+        padding: 2% 1%;
+        border: 2px solid #E1E3DF;
+        border-radius: 3px; }
+        #mainWrapper #contentWrapper #mainContent .liveDataContainer img {
+          margin: 1% 4% 0 4%; }
+        #mainWrapper #contentWrapper #mainContent .liveDataContainer .liveTitleContainer {
+          height: 25px;
+          padding: 0 .5%;
+          overflow: hidden;
+          font-size: 12px;
+          margin: 0 1% 1% 1%; }
+        #mainWrapper #contentWrapper #mainContent .liveDataContainer .livePriceContainer {
+          height: 25px;
+          padding: 2% .5%;
+          overflow: hidden;
+          font-size: 12px;
+          color: #AAAAAA; }
+          #mainWrapper #contentWrapper #mainContent .liveDataContainer .livePriceContainer .lightGreen {
+            color: #78C041;
+            float: right;
+            overflow: hidden; }
+  #mainWrapper footer {
+    width: 100%; }
+    #mainWrapper footer ul {
+      padding: 0;
+      margin: 0; }
+    #mainWrapper footer #relatedWhiskey {
+      font-size: .8em; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyHeader {
+        color: #737372;
+        margin: 2% 0 0 33%; }
+        #mainWrapper footer #relatedWhiskey #relatedWhiskeyHeader span {
+          color: #555555;
+          font-weight: bold; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList1 {
+        float: left;
+        margin: 1% 8% 0 33%; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList2 {
+        float: left;
+        margin: 1% 8% 0 0; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList3 {
+        float: left;
+        margin: 1% 0 0 0; }
+      #mainWrapper footer #relatedWhiskey ul li {
+        line-height: 20px; }
+    #mainWrapper footer #lookingShops {
+      font-size: .8em;
+      color: #737372;
+      clear: both;
+      margin: 9% 0 2% 33%; }
+    #mainWrapper footer #numBtnWrapper ul {
+      display: inline-block;
+      margin: 1% 0 0 33%;
+      border: 1px solid #E1E3DF;
+      padding: 0 0 0 0; }
+    #mainWrapper footer #numBtnWrapper ul li {
+      float: left;
+      margin: 0;
+      padding: 0; }
+    #mainWrapper footer #numBtnWrapper button {
+      background-color: #FFFFFF;
+      margin: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0; }
+      #mainWrapper footer #numBtnWrapper button:hover {
+        background-color: #AAAAAA; }

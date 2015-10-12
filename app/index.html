@@ -1,14 +1,281 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SAMPLE PROJECT</title>
-  <link rel="stylesheet" href="css/vendor.css">
+  <title>Etsy Whiskey</title>
+ <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<!-- ................................... -->
+<div id="mainWrapper"> <!-- PINK -->
+<!-- ................................... -->
 
-  <h1>Hello World</h1>
+  <nav id="search1"> <!-- ORANGE -->
 
+    <div id="search1A"> <!-- BLUE -->
+      <div id="etsyLogo">
+      <h2>Etsy</h2>
+      </div>
+      <div id="searchInputWrapper">
+        <div id="whiskeySearch">
+        <h2>whiskey</h2>
+        </div>
+        <div id="whiskeySearchBtn">Search
+        </div>
+      </div>
+    </div> <!-- BLUE end of search1A -->
+
+    <div id="search1B"> <!-- PURPLE -->
+      <div id="sellOnEtsy">
+          <a href="#">Sell on Etsy</a>
+      </div>
+
+      <div id="register">
+         <a href="#">Register</a>
+      </div>
+
+      <div id="signIn">
+        <a href="#">Sign in</a>
+      </div>
+
+      <div id="cart">
+        <img src="images/cart.png">
+        <h4>Cart</h4>
+      </div> <!-- end of cart -->
+    </div> <!-- PURPLE end of search1B -->
+  </nav> <!-- ORANGE end of search1 -->
+ 
+<!-- ................................... -->
+
+  <nav id="search2"> <!-- GREEN -->
+    <ul>
+      <li>Clothing & Accessories</li>
+      <li>Jewelry</li>
+      <li>Craft Supplies & Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home & Living</li>
+      <li>Kids & Baby</li>
+      <li>Vintage</li>
+    </ul>
+  </nav> <!-- GREEN end of search 2 -->
+<!-- ................................... -->
+
+  <div id="contentWrapper"> <!-- GREY -->
+<!-- ................................... -->
+    <div class="aside">
+      <h4>Show results for:</h4>
+      <div id="allCat">
+
+        <h4>All Categories</h4>
+        <ul>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Paper & Party Supplies</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Bags & Purses</a></li>
+          <li><a href="#">Bath & Beauty</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Books, Movies & Music</a></li>
+          <li><a href="#">Electronics & Accessories</a></li>
+          <li><a href="#">Toys & Games</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+        </ul>
+      </div> <!-- RED end of allCat -->
+      <h4 id="refineText">Refine your search</h4> <!-- PINK -->
+      <div id="refineSearch">
+        <!-- PURPLE -->
+
+        <div id="itemType">
+          <h4 id="itemTypeText">Item Type</h4>
+          <form>
+            <label>
+              <input type="radio" checked>
+              All Items
+            </label>
+
+            <label>
+              <input type="radio">
+              <a href="#">Handmade</a>
+            </label>
+
+            <label>
+              <input type="radio">
+              <a href="#">Vintage</a>
+            </label>
+          </form>
+          <br>
+        </div> <!-- end of itemType -->
+         
+        <div id="priceLowToHigh"> <!-- GREEN -->
+          <h3>Price</h3>
+          <br>
+          <div class="highLow">$<span> Low</span></div>
+          <h4>to</h4>
+          <div class="highLow">$<span> High</span></div>
+          <div id="arrowBtn">
+          <img src="images/greyArrow.png">
+            
+          </div>
+        </div> <!-- end of priceLowToHigh -->
+        
+        <div id="filterByColor">
+        <h4 id="filterByColorText">Filter by Color</h4>
+          <ul>
+            <li><div class="filterBox" id="red"></div></li>
+            <li><div class="filterBox" id="orange"></div></li>
+            <li><div class="filterBox" id="yellow"></div></li>
+            <li><div class="filterBox" id="green"></div></li>
+            <li><div class="filterBox" id="blue"></div></li>
+            <li><div class="filterBox" id="purple"></div></li>
+            <li><div class="filterBox" id="black"></div></li>
+            <li><div class="filterBox" id="white"></div></li>
+          </ul>
+        </div> <!-- end of filterByColor -->
+
+        <div id="orderingOptions">
+        <h4>Ordering Options</h4>
+          <form>
+            <label>
+              <input type="checkbox">
+            <a href="#">Accepts Etsy Gift Cards</a></label><br>
+            <label>
+              <input type="checkbox">
+            <a href="#">Customizable</a></label><br>
+          </form>
+          
+        </div>  <!-- end of orderingOptions -->
+        <div id="shopLocation">
+          <h4>Shop Location</h4>
+          <form>
+            <label>
+              <input type="radio" checked>
+            Anywhere</label><br>
+            <label>
+              <input type="radio">
+            <a href="#">United States</a></label><br>
+          </form>
+          <a href="#">Choose a custom location</a>
+          <br>
+          <br>
+          
+        </div> <!-- end of shopLocation -->
+        
+
+        <div id="shipTo">
+          <h4>Ship To</h4>
+          <select class="dropDown">
+            <option value="us">United States</option>
+            <option value"au">Australia</option>
+            <option value"br">Brazil</option>
+            <option value"ca">Canada</option>
+            <option value"cn">China</option>
+            <option value"cr">Costa Rica</option>
+            <option value"fr">France</option>
+            <option value"de">Germany</option>
+            <option value"hk">Hong Kong</option>
+            <option value"in">India</option>
+            <option value"it">Italy</option>
+            <option value"jp">Japan</option>
+            <option value"ke">Kenya</option>
+
+          </select>
+        </div> <!-- end of shipTo -->
+       
+      </div> <!-- PURPLE end of refineSearch -->
+    </div> <!-- BLUE -->
+<!-- ................................... -->
+  <section id="mainContent"> <!-- ORANGE -->
+   
+    <script type="text/template" id="itemTemplate">
+
+          
+      <div class="liveDataContainer">
+        <img src="<%= Images[0].url_170x135 %>">
+
+        <div class="liveTitleContainer">
+          <p class="liveTitle">
+          <%=title%>
+          </p>
+        </div>
+
+      <div class="livePriceContainer">
+        
+        <%= Shop.shop_name %> 
+        <span class="lightGreen">$<%= price%>
+        <%= currency_code %></span>
+        
+      </div>
+        
+
+    </script>
+
+
+  </section> <!-- ORANGE end of mainContent -->
+  </div> <!-- GREY end of contentWrapper -->
+
+<!-- ................................... -->
+
+<footer>
+  
+<div id="relatedWhiskey">
+
+  <div id="relatedWhiskeyHeader">Related to <span>whiskey</span>
+  </div>
+    <div id="relatedWhiskeyList1">
+      <ul>
+        <li><a href="#">whiskey barrel</a></li>
+        <li><a href="#">whiskey decanter</a></li>
+        <li><a href="#">whiskey stones</a></li>
+        <li><a href="#">jack daniels</a></li>
+      </ul>
+    </div>
+    <div id="relatedWhiskeyList2">
+      <ul>
+        <li><a href="#">bourbon</a></li>
+        <li><a href="#">scotch</a></li>
+        <li><a href="#">whiskey bottle</a></li>
+        <li><a href="#">beer</a></li>
+      </ul>
+    </div>
+    <div id="relatedWhiskeyList3">
+      <ul>
+        <li><a href="#">cigar</a></li>
+        <li><a href="#">flask</a></li>
+      </ul>
+    </div>
+  </div> <!-- RED end of relatedWhiskey -->
+  <div id="lookingShops">
+    <p>Looking for shops? <a href="#">whiskeyweddingbells</a>, <a href="#">WhiskeyDogWares</a>, <a href="#">WhiskeyWhims</a>. <a href="#">See more</a>.</p>
+  </div> <!-- GREEN end of lookingShops -->
+  <div id="numBtnWrapper">
+    <ul>
+      <li><button><</button></li>
+      <li><button>1</button></li>
+      <li><button>2</button></li>
+      <li><button>3</button></li>
+      <li><button>4</button></li>
+      <li><button>5</button></li>
+      <li><button>6</button></li>
+      <li><button>7</button></li>
+      <li><button>8</button></li>
+      <li><button>...</button></li>
+      <li><button>250</button></li>
+      <li><button>></button></li>
+
+    </ul>
+  </div> <!-- end of numBtnWrapper -->
+  <br>
+  <hr><br><br>
+</footer> <!-- YELLOW --> 
+</div> <!-- PINK end of main wrapper -->
+<!-- ................................... -->
+<!--  -->
+ 
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
 </body>

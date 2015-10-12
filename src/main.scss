@@ -1,0 +1,540 @@
+$borderGrey: #E1E3DF;
+
+a {
+  text-decoration: none;
+  &:link {
+    color: #0E92B5;
+    font-weight: 100;
+  }
+  &:visited {
+    color: #0E92B5;
+    font-weight: 100;
+  }
+} 
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+#mainWrapper {
+  background-color: #F5F5F2;
+  width: 100%;
+
+  #search1 {
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid $borderGrey;
+    padding: 1% 0 1% 0;
+    height: 70px;
+
+    #search1A {
+      // background-color: blue;
+      float: left;
+      width: 55%;
+      height: 70px;
+      margin: 0;
+
+      #etsyLogo {
+        float: left;
+        color: #F56400;
+        margin: 2% 5% 0 14%;
+        font-size: 1.5em;
+        font-weight: 100;
+        font-family: helvetica;
+      
+        h2 {
+          // background-color: yellow;
+        }
+      }
+      #searchInputWrapper {
+        background-color: white;
+        width: 55%;
+        float: left;
+        margin: 3% 0 0 0;
+        border: 1px solid #B2B2B2;
+        border-radius: 3px;
+
+        #whiskeySearch {
+          float: left;
+          background-color: white;
+          padding: 1% 0;
+          width: 65%;
+          margin: 0%;
+          h2 {
+            // background-color: pink;
+            font-size: 1em;
+            padding: 2% 0 1% 3%;
+          }
+        }
+        #whiskeySearchBtn {
+          float: right;
+          background-color: #34A8C4;
+          color: white;
+          padding: 2.4% 5%;
+        }
+      } //end of searchInputWrapper 
+  } //end of search1A
+  #search1B {
+    float: left;
+    width: 40%;
+    margin: 0;
+    padding: 0 0 0 0;
+    height: 70px;
+    // background-color: purple;
+
+    #sellOnEtsy {
+      float: left;
+      color: #0E92B5;
+      margin: 4% 4% 0 7%;
+      // background-color: grey;
+      padding: 2% 0;
+
+      a {
+        // background-color: yellow;
+        font-size: .9em;
+        font-weight: bold;
+      }
+    }
+    #register {
+      float: left;
+      color: #0E92B5;
+      margin: 4% 2% 0 0;
+      // background-color: red;
+      padding: 2% 0;
+
+      a {
+        // background-color: pink;
+        font-size: .9em;
+        font-weight: bold;
+      }
+    }
+    #signIn {
+      float: left;
+      color: #0E92B5;
+      background-color: white;
+      color: #0E92B5;
+      border: 1px solid #0E92B5;
+      padding: 1.8% 1.6%;
+      border-radius: 3px;
+      margin: 4% 0 0 0;
+
+      a {
+        // background-color: orange;
+      }
+    }
+    #cart {
+      border-left: 1px solid $borderGrey;
+      float: left;
+      padding: 0 3%;
+      margin: 4% 0 0 5%;
+      // background-color: orange;
+      
+      img {
+        width: 70%;
+      }
+      h4 {
+        padding: 4% 0 0 0;
+        font-size: .8em;
+        margin: 0;
+        // background-color: yellow;
+        }
+      } 
+    } //end of search1B 
+  } //end of search1
+  #search2 {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    padding: .3% 0;
+    border-bottom: 1px solid $borderGrey;
+    ul {
+      margin: 0 0 0 4%;
+     } 
+    ul li {
+    float: left;
+    padding: 10px;
+    color: #888888;
+    margin: 0 auto;
+    font-size: .9em;
+
+    }  
+  }//end of search2
+  #contentWrapper {
+    
+    width: 82%;
+    margin: 2% 12% 0 12%;
+      //----------------------
+    .aside {
+      background-color: #F5F5F2;
+      width: 23%;
+      margin: 0 3% 0 0;
+      padding: 0;
+      float: left;
+      h4 {
+        background-color: #F5F5F2;
+        font-size: .8em;
+        margin: 2% 0 6% 0;
+        color: #555555;
+      }
+      #allCat {
+        background-color: white;
+        border-radius: 4px;
+        border: 1px solid $borderGrey;
+
+
+        h4 {
+          margin: 6% 0 0 5%;
+          background-color: white;
+          color: #555555;
+        }
+
+        ul {
+          margin: 4% 0 0 0;
+          }
+        ul li{
+          line-height: 23px;
+          font-size: .8em;
+          margin: 0 0 0 0;
+        }
+      } // end of allCat
+      
+      #refineText {
+        
+        margin: 10% 0 2% 0;
+      }
+
+      #refineSearch {
+        background-color: white;
+        margin: 6% 0 0 0;
+        border-radius: 3px;
+        border: 1px solid $borderGrey;
+
+        
+        #itemType {
+          margin: 3% 2% 6% 2%;
+          border-bottom: 1px solid $borderGrey;
+          background-color: white;
+
+          label {
+            display: block;
+            margin: 0 0 1% 3%;
+          }
+
+          #itemTypeText {
+            background-color: white;
+            padding: 2%;
+          }
+        } //end of itemType
+         
+        #priceLowToHigh {
+        // background-color: green;
+        border-bottom: 1px solid $borderGrey;
+        margin: 2%;
+          h3 {
+            // background-color: pink;
+            font-size: .9em;
+            margin: 2% 0 3% 2%;
+            padding: 4% 0 0 0;
+            display: inline-block;
+            color: #555555;
+          }
+          h4 {
+            background-color: white;
+            display: inline-block;
+            padding: 5% 0 5% 0;
+            color: #555555;
+
+
+          }
+          .highLow {
+            // background-color: yellow;
+            padding: 5% 5%;
+            margin: 0 2% 7% 0;
+            border: 1px solid $borderGrey;
+            border-radius: 2px;
+            display: inline-block;
+            color: #555555;
+
+            span {
+              color: #CCCCCC;
+            }
+          }
+          #arrowBtn {
+            // background-color: blue;
+            padding: 4% 4%;
+            margin: 1% 0 0 0;
+            border-radius: 2px;
+            width: 8%;
+            display: inline-block;
+            border: 1px solid $borderGrey;
+
+
+          }
+            #arrowBtn img{
+              width: 100%;
+              // background-color: purple; 
+            }
+        } //GREEN end of priceLowToHigh
+      #filterByColor {
+        margin: 2%;
+        background-color: white;
+        padding: 1%;
+        border-bottom: 1px solid $borderGrey;
+
+        h4 {
+          padding: 5% 0 0 0;
+          background-color: white;
+
+        }
+        ul {
+        margin: 4% 0 8% 2%;
+        padding: 0;
+        }
+        ul li {
+          display: inline-block;
+         
+        #filterByColorText {
+          clear: both;
+        }
+
+        .filterBox {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+        }
+        #red {
+          background-color: red;
+          border: 1px solid $borderGrey;
+
+        }
+        #orange {
+          background-color: orange;
+          border: 1px solid $borderGrey;
+
+        }
+        #yellow {
+          background-color: yellow;
+          border: 1px solid $borderGrey;
+
+        }
+        #green {
+          background-color: green;
+          border: 1px solid $borderGrey;
+
+        }
+        #blue {
+          background-color: blue;
+          border: 1px solid $borderGrey;
+
+        }
+        #purple {
+          background-color: purple;
+          border: 1px solid $borderGrey;
+
+        }
+        #black {
+          background-color: black;
+          border: 1px solid $borderGrey;
+
+        }
+        #white {
+          background-color: white;
+          border: 1px solid $borderGrey;
+
+        }
+        } // end of ul li
+      } //GREY end of filterByColor
+      #orderingOptions {
+        // background-color: green;
+        border-bottom: 1px solid $borderGrey;
+        padding: 2% 2% 10% 2%;
+        margin: 2%;
+
+        h4 {
+          margin: 5% 0 5% 0;
+          background-color: white; 
+        }
+        a {
+          font-size: .8em;
+        }
+
+      } //GREEN end of orderingOptions  
+      #shopLocation {
+        // background-color: yellow;
+        border-bottom: 1px solid $borderGrey;
+        padding: 2%;
+        margin: 2%;
+
+        h4 {
+          margin: 5% 0 5% 0;
+          background-color: white;
+
+        }
+        input {
+          margin: 0 0 4% 0;
+        }
+        label {
+          font-size: .9em;
+
+        }
+        a {
+          font-size: .9em;
+        }
+
+      } //YELLOW end of shopLocation  
+       #shipTo {
+        // background-color: pink;
+        padding: 8% 2%;
+        margin: 5% 2%;
+
+        h4 {
+          margin: 0 0 7% 0;
+        }
+        .dropDown {
+          width: 95%;
+          padding: 6% 1%;
+          line-height: 30px;
+          font-size: 1.5em;
+        }
+       
+      } //PINK end of shipTo 
+    } //end of refineSearch
+  } //end of aside
+        //---------------------
+    #mainContent {
+      // background-color: orange;
+      width: 73%;
+      margin: 0;
+      display: inline-block;
+
+      .liveDataContainer {
+        margin: 0 auto;
+        width: 190px;
+        height: 170px;
+        background-color: white;
+        float: left;
+        margin: 0 2% 2% 0;
+        padding: 2% 1%;
+        border: 2px solid $borderGrey;
+        border-radius: 3px;
+
+        img {
+          margin: 1% 4% 0 4%;
+        }
+      
+        .liveTitleContainer {
+          height: 25px;
+          padding: 0 .5%;
+          overflow: hidden;
+          font-size: 12px;
+          // background-color: pink;
+          margin: 0 1% 1% 1%;
+        }
+        .livePriceContainer {
+          height: 25px;
+          padding: 2% .5%;
+          overflow: hidden;
+          font-size: 12px;
+          color: #AAAAAA;
+
+          .lightGreen {
+            color: #78C041;
+            float: right;
+            overflow: hidden;
+          }
+          // background-color: green;
+
+        } 
+      } //YELLOW end of liveDataContainer
+   
+    } // ORANGE end of #mainContent
+  } // GREY end of #contentWrapper   
+  //------------------------
+  footer {
+    // background-color: yellow;
+    width: 100%;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+    }
+    #relatedWhiskey {
+      font-size: .8em;
+      // background-color: blue;
+      #relatedWhiskeyHeader {
+        color: #737372;
+        // background-color: purple;
+        margin: 2% 0 0 33%;
+        span {
+          color: #555555;
+          font-weight: bold;
+        }
+      }
+      #relatedWhiskeyList1 {
+        float: left;
+        // background-color: pink;
+        margin: 1% 8% 0 33%;
+      }
+      #relatedWhiskeyList2 {
+        float: left;
+        margin: 1% 8% 0 0;
+        // background-color: brown;
+
+      }
+      #relatedWhiskeyList3 {
+        float: left;
+        margin: 1% 0 0 0;
+        // background-color: orange;
+      }
+      ul li {
+      line-height: 20px;
+    } 
+    }
+    #lookingShops {
+      // background-color: green;
+      font-size: .8em;
+      color: #737372;
+      clear: both;
+      margin: 9% 0 2% 33%;
+    }
+    #numBtnWrapper {
+      ul {
+        display: inline-block;
+        margin: 1% 0 0 33%;
+        // background-color: pink;
+        border: 1px solid $borderGrey;
+        padding: 0 0 0 0;
+
+      }
+      ul li {
+        float: left;
+        margin: 0;
+        padding: 0;
+        
+      }
+      button {
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+
+        &:hover {
+          background-color: #AAAAAA;
+        }
+
+      }
+    }
+
+   } //end of footer
+      //---------------------
+
+} // PINK end of mainWrapper
