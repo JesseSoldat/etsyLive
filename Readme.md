@@ -1,3 +1,5 @@
-## This is a Readme
+I converted a previous Etsy assignment so that I could pull live data via Ajax.  
 
-> You should probably update me.
+Java Script / jQuery / CSS / HTML
+
+https://etsy-ajax.surge.sh/app/
